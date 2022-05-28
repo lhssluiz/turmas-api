@@ -1,8 +1,8 @@
 package com.letscode.turmasapi.domain;
 
 public class TurmaAlunoRequest {
-    private String idTurma;
-    private Long idAluno;
+    private String idTurma; // idTurma -> camelCase
+    private Long idAluno; // idAluno -> camelCase
 
     public String getIdTurma() {
         return idTurma;
